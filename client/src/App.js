@@ -29,22 +29,6 @@ function App() {
     return await request.json(); 
   }
 
-  //save the dark mode options to local storage
-  const persistDarkModeSetting = () => {
-
-  }
-
-  //load the dark mode options from local storage
-  const loadDarkModeSetting = () => {
-
-  }
-
-  //load the darkmode options when the app starts 
-  useEffect( ()=>{},[])
-
-  //save the darkmode options to local storage when the state changes 
-  useEffect( ()=>{},[])
-
   //clear all state and fiels 
   const clearEverything = () => {
     setInputText("");
